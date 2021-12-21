@@ -1,0 +1,39 @@
+{
+  "name": "baghdad",
+  "version": "0.0.2",
+  "private": false,
+  "scripts": {
+    "dev": "next dev -p 5000",
+    "build": "next build",
+    "start": "next start",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "assets-ideas": "^0.1.1",
+    "cookie": "^0.4.1",
+    "core-js": "^3.8.2",
+    "next": "10.0.5",
+    "object-assign": "^4.1.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-ideas": "0.1.47",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "showdown": "^1.9.1"
+  },
+  "description": "validate your data easily as cake",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [
+    "baghdad",
+    "validator",
+    "zero",
+    "test",
+    "validation",
+    "middleware",
+    "ideas"
+  ],
+  "author": "laith",
+  "license": "ISC"
+}

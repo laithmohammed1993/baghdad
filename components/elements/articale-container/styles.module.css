@@ -1,0 +1,289 @@
+.atricale-container {
+  flex: 1;
+  margin: 20px var(--article-max-padding);
+}
+.atricale-container > div {
+  max-width: 1000px;
+  margin: 0 auto 0 0 ;
+}
+.atricale-container > div > * {
+  color: var(--font-primary-color);
+  font-family: var(--font-family);
+}
+.atricale-container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-top: 0.75rem;
+  text-transform: capitalize;
+}
+.atricale-container h2 {
+  margin: 3.5rem 0 0rem 0;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.atricale-container a {
+  color: var(--font-hightlight-color);
+}
+.atricale-container p {
+  margin: 1.25rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 17px;
+}
+.atricale-container pre > code {
+  border-radius: 3px;
+  padding: 20px 10px;
+  box-shadow: var(--drawer-box-shadow);
+}
+.atricale-container p > code {
+  padding: .2em .4em;
+  margin: 0;
+  /* font-size: 85%; */
+  background-color: var(--code-background-color);
+  color: var(--code-font-color);
+  border-radius: 6px;
+}
+.atricale-container code[rule-name] {
+  font-size: 21.5px;
+  font-size: 700;
+  /* font-family: var(--font-family); */
+  font-family: cursive;
+  line-height: 27.0938px;
+  padding: 3.4px 6.8px;
+}
+.atricale-container a > code{
+  padding: .2em .4em;
+  margin: 0;
+  /* font-size: 85%; */
+  background-color: var(--code-background-color);
+  color: var(--code-font-color);
+  border-radius: 6px;
+}
+.a-tag-role-name {
+  padding: .2em .4em;
+  margin: 0;
+  /* font-size: 85%; */
+  background-color: var(--code-background-color);
+  color: var(--code-font-color);
+  border-radius: 6px;
+}
+.atricale-container blockquote {
+  border-left: 8px solid #ffe564;
+  padding: 15px 30px 15px 15px;
+  margin: 0 0 17px 0;
+  background-color: rgba(255, 229, 100, 0.25);
+  border-radius: 3px;
+}
+.atricale-container blockquote p {
+  margin: 0;
+  padding: 0;
+}
+.atricale-container table {
+  border-collapse: collapse;
+  display: table;
+  margin: 20px 0;
+  width: 100%;
+  border-spacing:0;
+  border-collapse: collapse;
+  overflow: auto;
+  border-color: grey;
+}
+.atricale-container table thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.atricale-container table thead tr {
+  background-color: #ececec;
+  display: table-row;
+}
+.atricale-container table thead tr th {
+  text-transform: uppercase;
+  padding: 6px 10px;
+  font-size: .7rem;
+  text-align: left;
+  background-color: inherit;
+  color: #7a7a7a;
+  font-weight: 700;
+  border: 1px solid #dadde1;
+  flex: 1;
+}
+.atricale-container table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.atricale-container table tbody tr {
+  background-color: transparent;
+  border-top: 1px solid #dadde1;
+}
+.atricale-container table tbody tr td {
+  font-size: 14px;
+  line-height: 1.3em;
+  padding: 10px;
+  text-align: left;
+  color: inherit;
+  border: 1px solid #dadde1;
+  /* display: flex; */
+}
+
+.article-navigator {
+  width: 100%;
+  background: rgb(40, 44, 52);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 50px 0;
+}
+.article-navigator > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--article-max-padding);
+}
+.article-navigator > div > div:first-child {
+  text-align: left;
+}
+.article-navigator > div > div:last-child {
+  text-align: right;
+}
+.article-navigator > div p {
+  color: var(--font-hightlight-color);
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  line-height: 14px;
+  font-weight: 400;
+  text-align: inherit;
+}
+
+.article-navigator > div a {
+  font-size: 24px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  margin: 0;
+  padding: 10px 0 0 0;
+  cursor: pointer;
+  border-color: rgb(109, 109, 109);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  transition: all 0.2s ease 0s;
+  user-select: none;
+  text-decoration: none;
+  color: #fff;
+  text-align: inherit;
+}
+.article-navigator > div a:hover {
+  border-color: rgb(255, 255, 255);
+}
+.article-navigator > div a:active {
+  transform: scale(0.95);
+}
+
+.article-review {
+  width: 100%;
+  background: transparent;
+  color: var(--font-primary-color);
+  margin: 0;
+  padding: 50px 0;
+}
+.article-review > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  padding: 0 var(--article-max-padding);
+}
+.article-review > div p {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  color: rgb(109, 109, 109);
+  font-family: var(--font-family);
+}
+.article-review > div:last-child p > a {
+  color: var(--font-primary-color);
+  text-decoration: none;
+  border-color: var(--font-secondary-color);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.article-review > div > div:last-child p {
+  text-align: right;
+}
+.article-review > div p > i {
+  font-size: 22px;
+  margin: 10px;
+  color: inherit;
+}
+.article-review > div p > i[like='true'] {
+  color: var(--font-hightlight-color) !important;
+}
+.article-review > div p > i:hover {
+  color: #000;
+  cursor: pointer;
+}
+.article-review > div p > i[kind='up']{
+  transform: scale(-1) translateY(12.5%);
+}
+.article-review > div p > i[kind='down']{
+  transform: scaleY(-1) translateY(-12.5%);
+}
+
+.article-footer {
+  padding: 40px var(--article-max-padding);
+  background-color: var(--header-bg-color);
+}
+.article-footer > div[kind='sign'] {
+  display: flex;
+  flex-direction: column;
+}
+.article-footer > div[kind='sign'] > div {
+  display: flex;
+  flex-direction: row;
+}
+.article-footer > div[kind='sign'] img {
+  width: 42px;
+}
+.article-footer > div[kind='sign'] > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--header-font-color);
+  font-family: var(--font-family);
+  padding: 0 20px;
+}
+.article-footer > div[kind='sign'] span {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.article-footer p {
+  color: var(--header-font-color);
+  font-family: var(--font-family);
+}
+
+@media only screen and (max-width: 780px){
+  .atricale-container {
+    margin: 20px var(--article-min-padding);
+  }
+  .article-navigator > div {
+    padding: 0 var(--article-min-padding);
+  }
+  .article-review > div {
+    padding: 0 var(--article-min-padding);
+  }
+  .article-footer {
+    padding: 40px var(--article-min-padding);
+  }
+}
